@@ -468,8 +468,13 @@ theme.loadPlugins = function()
 		NeogitHunkHeader = { fg = nord.nord8_gui },
 		NeogitHunkHeaderHighlight = { fg = nord.nord8_gui, bg = nord.nord1_gui },
 		NeogitDiffContextHighlight = { bg = nord.nord1_gui },
-		NeogitDiffDeleteHighlight = { fg = nord.nord11_gui, style = "reverse" },
-		NeogitDiffAddHighlight = { fg = nord.nord14_gui, style = "reverse" },
+		NeogitDiffDeleteHighlight = { fg = nord.nord11_gui, bg = nord.nord1_gui},
+		NeogitDiffAddHighlight = { fg = nord.nord14_gui, bg = nord.nord1_gui},
+
+        NeogitDiffContext = { fg = nord.nord3_gui_bright, bg = nord.nord1_gui },
+        NeogitDiffAdd = { fg = nord.nord14_gui, bg = nord.nord1_gui },
+        NeogitDiffDelete = { fg = nord.nord11_gui, bg = nord.nord1_gui },
+        NeogitDiffHeader = { bg = nord.nord1_gui },
 
 		-- GitGutter
 		GitGutterAdd = { fg = nord.nord14_gui }, -- diff mode: Added line |diff.txt|
